@@ -1,217 +1,210 @@
 
 <!-- RD Navbar Simple submenu--><!DOCTYPE html>
 <html class="wow-animation" lang="en">
-  <head>
-    <title>Warszawski Front</title>
-    <meta charset="utf-8">
-    <meta name="format-detection" content="telephone=no">
-    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-    <meta name="keywords" content="Warszawski Front">
-    <meta name="date" content="Apr 25">
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Dancing+Script:700%7CRaleway:300,400,600,700,900">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/style.css">
-    <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
-  </head>
-  <body>
-    <!-- IE panel-->
-    <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
-    <div class="preloader">
-      <div class="preloader-body">
-        <div class="cssload-container">
-          <div class="cssload-speeding-wheel"></div>
+<head>
+  <title>Warszawski Front</title>
+  <meta charset="utf-8">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="keywords" content="Warszawski Front">
+  <meta name="date" content="Apr 25">
+  <link rel="icon" th:href="@{images/favicon.ico}" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Dancing+Script:700%7CRaleway:300,400,600,700,900">
+  <link rel="stylesheet" th:href="@{css/bootstrap.css}">
+  <link rel="stylesheet" th:href="@{css/fonts.css}">
+  <link rel="stylesheet" th:href="@{css/style.css}">
+  <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
+</head>
+<body>
+<!-- IE panel-->
+<div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img th:src="@{images/ie8-panel/warning_bar_0000_us.jpg}" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
+<div class="preloader">
+  <div class="preloader-body">
+    <div class="cssload-container">
+      <div class="cssload-speeding-wheel"></div>
+    </div>
+  </div>
+</div>
+<!-- Page-->
+<div class="page text-center">
+  <!-- Page Head-->
+  <header class="page-head slider-menu-position">
+    <!-- RD Navbar Transparent-->
+    <div class="rd-navbar-wrap">
+      <nav class="rd-navbar rd-navbar-default rd-navbar-transparent" data-auto-height="true" data-md-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-stick-up="true">
+        <div class="rd-navbar-inner">
+          <!-- RD Navbar Panel-->
+          <div class="rd-navbar-panel">
+            <!-- RD Navbar Toggle-->
+            <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar, .rd-navbar-nav-wrap"><span></span></button>
+            <!--Navbar Brand-->
+            <div class="rd-navbar-brand"><a href="pl.html"><img style='margin-top: -5px;margin-left: -15px;' th:src='@{images/logo.png}' alt=''/></a></div>
+          </div>
+          <div class="rd-navbar-menu-wrap">
+            <div class="rd-navbar-nav-wrap">
+              <div class="rd-navbar-mobile-scroll">
+                <!--Navbar Brand Mobile-->
+                <div class="rd-navbar-mobile-brand"><a href="pl.html"><img style='margin-top: -5px;margin-left: -15px;' th:src='@{images/logo.png}' alt=''/></a></div>
+                <!-- RD Navbar Nav-->
+                <ul class="rd-navbar-nav">
+                  <li class="active"><a th:href="@{/}"><span>UA</span></a></li>
+                  <li class="active"><a th:href="@{/en}"><span>EN</span></a></li>
+                  <li class="active"><a th:href="@{/pl}"><span>PL</span></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- Page Contents-->
+  <main class="page-content">
+    <!--Section Intro-->
+    <section class="context-dark">
+      <div class="parallax-container" data-parallax-img="images/intro-01-1920x955.jpg">
+        <div class="parallax-content">
+          <div class="container">
+            <div class="section-110 section-cover row justify-content-sm-center align-items-sm-center">
+              <div class="col-lg-10">
+                <h1 ><span class="big">Warsaw Front</span></h1>
+                <div class="group">
+                  <div class="group-item d-block"><span class="icon icon-xxs mdi mdi-navigation text-middle"></span> <span class="text-middle"><a class="link-white" th:href="@{https://goo.gl/maps/jcaeZrbgXAcgYgAH6}">Aleja Krakowska 9, 05-090 Sękocin Nowy</a></span>
+                  </div>
+                  <div class="group-item"><span class="icon icon-xxs mdi mdi-clock text-middle"></span> <span class="text-middle">Працюємо цілодобово</span>
+                  </div>
+                  <div class="group-item"><span class="icon icon-xxs mdi mdi-phone text-middle"></span> <span class="text-middle"><a class="link-white" href="tel:#">+48 518 626 397 (Сергій PL)</a></span>
+                  </div>
+                  <div class="group-item"><span class="icon icon-xxs mdi mdi-phone text-middle"></span> <span class="text-middle"><a class="link-white" href="tel:#">+380 96 030 89 92 (Кирило UA) </a></span>
+                  </div>
+                </div>
+                <p class="offset-top-24 big d-none d-md-block">Dear friends, at this difficult time for Ukraine, „The Warsaw Front” has organized its headquarters, which focuses on helping Ukrainian military.  Today we collect all the military equipment, such as flashlights, shoes, clothes, helmets, medicines, telephones, walkie-talkies, bulletproof vests and everything related to military issues.  Also, if you want to help us financially, you can do so by sending funds to the accounts:</p>
+
+                <p> <h3></h3>PLN 89 1020 3176 0000 5102 0228 7274</p>
+                <p> <h3></h3>EUR 21 1020 3176 0000 5802 0228 7282</p>
+                <p> <h3></h3>USD 26 1020 3176 0000 5602 0228 7290</p>
+
+                <p class="offset-top-24 big d-none d-md-block" >Якщо ви хочете доєднатися до нашої команди і допомогти, ми завжди чекаєм на вас!
+
+                  Разом до перемоги!</p>
+                <div class="offset-top-34 text-sm-center text-lg-left">
+
+                  <ul class="list-inline">
+                    <li class="list-inline-item"><a target="_blank" rel="noopener noreferrer" class="icon fa fa-facebook icon-xxs icon-circle icon-darkest-filled" th:href="@{https://www.facebook.com/warsawfront}"></a></li>
+                    <li class="list-inline-item"><a target="_blank" rel="noopener noreferrer" class="icon fa fa-linkedin icon-xxs icon-circle icon-darkest-filled" th:href="@{https://www.instagram.com/warsaw_front_/}"></a></li>
+                    <li class="list-inline-item"><a target="_blank" rel="noopener noreferrer" class="icon fa fa-google-plus icon-xxs icon-circle icon-darkest-filled" ></a>warszawski.front@gmail.com</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-    <!-- Page-->
-    <div class="page text-center">
-      <!-- Page Head-->
-      <header class="page-head slider-menu-position">
-        <!-- RD Navbar Transparent-->
-        <div class="rd-navbar-wrap">
-          <nav class="rd-navbar rd-navbar-default rd-navbar-transparent" data-auto-height="true" data-md-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-stick-up="true">
-            <div class="rd-navbar-inner">
-              <!-- RD Navbar Panel-->
-              <div class="rd-navbar-panel">
-                <!-- RD Navbar Toggle-->
-                <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar, .rd-navbar-nav-wrap"><span></span></button>
-                <!--Navbar Brand-->
-                <div class="rd-navbar-brand"><a href="pl.html"><img style='margin-top: -5px;margin-left: -15px;' src='images/logo.png' alt=''/></a></div>
+    </section>
+    <!-- Section Welcome-->
+    <section class="section-66 section-lg-110">
+      <div class="container">
+        <div class="row justify-content-center grid-group-md text-xl-left">
+          <div class="col-md-8 col-xl-6">
+            <div class="inset-xl-right-20">
+              <h1><span class="d-block font-accent big">Warsaw Front</span><span class="d-block offset-top-4 h3 text-light text-uppercase">Organization</span></h1>
+              <hr class="divider hr-xl-left-0 bg-mantis offset-top-30">
+            </div>
+          </div>
+          <div class="col-md-8 col-xl-6">
+            <div class="shadow-drop-xl">
+              <!-- Media Elements-->
+              <div class="embed-responsive embed-custom-16by9">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/7zqisT0awh4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
-              <div class="rd-navbar-menu-wrap">
-                <div class="rd-navbar-nav-wrap">
-                  <div class="rd-navbar-mobile-scroll">
-                    <!--Navbar Brand Mobile-->
-                    <div class="rd-navbar-mobile-brand"><a href="pl.html"><img style='margin-top: -5px;margin-left: -15px;' src='images/logo.png' alt=''/></a></div>
-                    <div class="form-search-wrap">
-                      <form class="form-search" action="#" method="GET">
-                        <div class="form-group">
-                          <label class="form-label form-search-label form-label-sm" for="rd-navbar-form-search-widget">Search</label>
-                          <input class="form-search-input input-sm form-control form-control-gray-lightest input-sm" id="rd-navbar-form-search-widget" type="text" name="s" autocomplete="off"/>
-                        </div>
-                        <button class="form-search-submit" type="submit"><span class="mdi mdi-magnify"></span></button>
-                      </form>
-                    </div>
-                    <!-- RD Navbar Nav-->
-                    <ul class="rd-navbar-nav">
-                      <li class="active"><a th:href="@{/}"><span>UA</span></a></li>
-                      <li class="active"><a th:href="@{/en}"><span>EN</span></a></li>
-                      <li class="active"><a th:href="@{/pl}"><span>PL</span></a></li>
-                    </ul>
-                  </div>
-                </div>
+              <div class="embed-responsive embed-custom-16by9">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Itf50WPz8bE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
             </div>
-          </nav>
+          </div>
         </div>
-      </header>
-      <!-- Page Contents-->
-      <main class="page-content">
-        <!--Section Intro-->
-        <section class="context-dark">
-          <div class="parallax-container" data-parallax-img="images/intro-01-1920x955.jpg">
-            <div class="parallax-content">
-              <div class="container">
-                <div class="section-110 section-cover row justify-content-sm-center align-items-sm-center">
-                  <div class="col-lg-10">
-                    <h1 ><span class="big">Warsaw Front</span></h1>
-                    <div class="group">
-                      <div class="group-item d-block"><span class="icon icon-xxs mdi mdi-navigation text-middle"></span> <span class="text-middle"><a class="link-white" th:href="@{https://goo.gl/maps/jcaeZrbgXAcgYgAH6}">Aleja Krakowska 9, 05-090 Sękocin Nowy</a></span>
-                      </div>
-                      <div class="group-item"><span class="icon icon-xxs mdi mdi-clock text-middle"></span> <span class="text-middle">Around the clock</span>
-                      </div>
-                      <div class="group-item"><span class="icon icon-xxs mdi mdi-phone text-middle"></span> <span class="text-middle"><a class="link-white" href="tel:#">+48 518 626 397 (Sergij PL)</a></span>
-                      </div>
-                      <div class="group-item"><span class="icon icon-xxs mdi mdi-phone text-middle"></span> <span class="text-middle"><a class="link-white" href="tel:#">+380 96 030 89 92 (Kiril UA) </a></span>
-                      </div>
-                    </div>
-                    <p class="offset-top-24 big d-none d-md-block">Dear friends, at this difficult time for Ukraine, „The Warsaw Front” has organized its headquarters, which focuses on helping Ukrainian military.  Today we collect all the military equipment, such as flashlights, shoes, clothes, helmets, medicines, telephones, walkie-talkies, bulletproof vests and everything related to military issues.  Also, if you want to help us financially, you can do so by sending funds to the accounts:</p>
-                    <p> <h3></h3>PLN 89 1020 3176 0000 5102 0228 7274</p>
-                    <p> <h3></h3>EUR 21 1020 3176 0000 5802 0228 7282</p>
-                    <p> <h3></h3>USD 26 1020 3176 0000 5602 0228 7290</p>
-                    <p class="offset-top-24 big d-none d-md-block" >In case you want to join us, we are always welcome new people!
-                      Together to the victory!</p>
-
-                    <div class="offset-top-34 text-sm-center text-lg-left">
-
-                      <ul class="list-inline">
-                        <li class="list-inline-item"><a target="_blank" rel="noopener noreferrer" class="icon fa fa-facebook icon-xxs icon-circle icon-darkest-filled" th:href="@{https://www.facebook.com/warsawfront}"></a></li>
-                        <li class="list-inline-item"><a target="_blank" rel="noopener noreferrer" class="icon fa fa-linkedin icon-xxs icon-circle icon-darkest-filled" th:href="@{https://www.instagram.com/warsaw_front_/}"></a></li>
-                        <li class="list-inline-item"><a target="_blank" rel="noopener noreferrer" class="icon fa fa-google-plus icon-xxs icon-circle icon-darkest-filled" ></a>warszawski.front@gmail.com</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
+      </div>
+    </section>
+    <section class="section-66 section-lg-110">
+      <div class="container">
+        <div class="row justify-content-center grid-group-md text-xl-left">
+          <div class="col-md-8 col-xl-6">
+            <div class="shadow-drop-xl">
+              <!-- Media Elements-->
+              <div class="embed-responsive embed-custom-16by9">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/pSsCxNOlRss" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <div class="embed-responsive embed-custom-16by9">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/rv-J3KDACpc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <div class="embed-responsive embed-custom-16by9">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/lY2Vrs2PEtU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <div class="embed-responsive embed-custom-16by9">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/9yMngaiDVI4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
             </div>
           </div>
-        </section>
-        <!-- Section Welcome-->
-        <section class="section-66 section-lg-110">
-          <div class="container">
-            <div class="row justify-content-center grid-group-md text-xl-left">
-              <div class="col-md-8 col-xl-6">
-                <div class="inset-xl-right-20">
-                  <h1><span class="d-block font-accent big">Warsaw Front</span><span class="d-block offset-top-4 h3 text-light text-uppercase">Organization</span></h1>
-                  <hr class="divider hr-xl-left-0 bg-mantis offset-top-30">
-                </div>
-              </div>
-              <div class="col-md-8 col-xl-6">
-                <div class="shadow-drop-xl">
-                  <!-- Media Elements-->
-                  <div class="embed-responsive embed-custom-16by9">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/7zqisT0awh4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                  </div>
-                  <div class="embed-responsive embed-custom-16by9">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Itf50WPz8bE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section class="section-66 section-lg-110">
-          <div class="container">
-            <div class="row justify-content-center grid-group-md text-xl-left">
-              <div class="col-md-8 col-xl-6">
-                <div class="shadow-drop-xl">
-                  <!-- Media Elements-->
-                  <div class="embed-responsive embed-custom-16by9">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/pSsCxNOlRss" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                  </div>
-                  <div class="embed-responsive embed-custom-16by9">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/rv-J3KDACpc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                  </div>
-                  <div class="embed-responsive embed-custom-16by9">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/lY2Vrs2PEtU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                  </div>
-                  <div class="embed-responsive embed-custom-16by9">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/9yMngaiDVI4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!--Section Gallery-->
-        <section>
-          <div class="context-dark">
-            <div class="parallax-container" data-parallax-img="images/image-02-1920x935.jpg">
-              <div class="parallax-content">
-                <div class="container section-98 section-md-110">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="container-fluid section-top-66 section-bottom-98">
-            <div class="isotope-wrap">
-              <div class="row">
-                <!-- Isotope Content-->
-                <div class="col-12">
-                  <div class="isotope" data-isotope-layout="masonry" data-isotope-group="gallery">
-                    <div class="row" data-lightgallery="group">
-
-                      <div class="col-12 col-sm-6 col-lg-4 col-xl-4 isotope-item"><a class="thumbnail-classic" data-lightgallery="item" href="images/gallery-03-601x442.jpg">
-                          <figure><img width="601" height="442" src="images/photo-localization-1.jpg" alt=""/>
-                          </figure></a>
-                      </div>
-                      <div class="col-12 col-sm-6 col-lg-4 col-xl-4 isotope-item"><a class="thumbnail-classic" data-lightgallery="item" href="images/gallery-04-600x600.jpg">
-                          <figure><img width="600" height="600" src="images/photo-localization-2.jpg" alt=""/>
-                          </figure></a>
-                      </div>
-                      <div class="col-12 col-sm-6 col-lg-4 col-xl-4 isotope-item"><a class="thumbnail-classic" data-lightgallery="item" href="images/gallery-05-600x600.jpg">
-                          <figure><img width="600" height="600" src="images/photo-localization-3.jpg" alt=""/>
-                          </figure></a>
-                      </div>
-                      <div class="col-12 col-sm-6 col-lg-4 col-xl-4 isotope-item"><a class="thumbnail-classic" data-lightgallery="item" href="images/gallery-05-600x600.jpg">
-                          <figure><img width="600" height="600" src="images/photo-localization-4.jpg" alt=""/>
-                          </figure></a>
-                      </div>
-
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </main>
-      <!-- Page Footer-->
-      <!-- Default footer-->
-      <footer class="section-relative section-top-66 section-bottom-34 page-footer bg-gray-base context-dark">
-
-        <div class="container offset-top-50">
-          <p class="small text-darker"><span>&copy;&nbsp;</span><span class="copyright-year"></span><span>&nbsp;</span><span>Warszawski Front</span>. All Rights Reserved. Design by Jarosław Fetsiura</a></p>
         </div>
-      </footer>
+      </div>
+    </section>
+    <!--Section Gallery-->
+    <section>
+      <div class="context-dark">
+        <div class="parallax-container" data-parallax-img="images/image-02-1920x935.jpg">
+          <div class="parallax-content">
+            <div class="container section-98 section-md-110">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid section-top-66 section-bottom-98">
+        <div class="isotope-wrap">
+          <div class="row">
+            <!-- Isotope Content-->
+            <div class="col-12">
+              <div class="isotope" data-isotope-layout="masonry" data-isotope-group="gallery">
+                <div class="row" data-lightgallery="group">
+
+                  <div class="col-12 col-sm-6 col-lg-4 col-xl-4 isotope-item"><a class="thumbnail-classic" data-lightgallery="item" th:href="@{images/photo-localization-1.jpg}">
+                    <figure><img width="601" height="442" th:src="@{images/photo-localization-1.jpg}" alt=""/>
+                    </figure></a>
+                  </div>
+                  <div class="col-12 col-sm-6 col-lg-4 col-xl-4 isotope-item"><a class="thumbnail-classic" data-lightgallery="item" th:href="@{images/photo-localization-2.jpg}">
+                    <figure><img width="600" height="600" th:src="@{images/photo-localization-2.jpg}" alt=""/>
+                    </figure></a>
+                  </div>
+                  <div class="col-12 col-sm-6 col-lg-4 col-xl-4 isotope-item"><a class="thumbnail-classic" data-lightgallery="item" th:href="@{images/photo-localization-3.jpg}">
+                    <figure><img width="600" height="600" th:src="@{images/photo-localization-3.jpg}" alt=""/>
+                    </figure></a>
+                  </div>
+                  <div class="col-12 col-sm-6 col-lg-4 col-xl-4 isotope-item"><a class="thumbnail-classic" data-lightgallery="item" th:href="@{images/photo-localization-4.jpg}">
+                    <figure><img width="600" height="600" th:src="@{images/photo-localization-4.jpg}" alt=""/>
+                    </figure></a>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- Page Footer-->
+  <!-- Default footer-->
+  <footer class="section-relative section-top-66 section-bottom-34 page-footer bg-gray-base context-dark">
+
+    <div class="container offset-top-50">
+      <p class="small text-darker"><span>&copy;&nbsp;</span><span class="copyright-year"></span><span>&nbsp;</span><span>Warszawski Front</span>. All Rights Reserved. Design by Jarosław Fetsiura</a></p>
     </div>
-    <!-- Global Mailform Output-->
-    <div class="snackbars" id="form-output-global"></div>
-    <!-- Java script-->
-    <script th:src="@{js/core.min.js}"></script>
-    <script th:src="@{js/script.js}"></script>
-  </body>
+  </footer>
+</div>
+<!-- Global Mailform Output-->
+<div class="snackbars" id="form-output-global"></div>
+<!-- Java script-->
+<script th:src="@{js/core.min.js}"></script>
+<script th:src="@{js/script.js}"></script>
+</body>
 </html>
